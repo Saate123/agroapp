@@ -1,0 +1,72 @@
+li.pg-login-menu-item .user-profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin: -3px 6px 0px 0px;
+    padding: 0px;
+}
+
+
+.pg_menu_login_logout img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0px !important;
+    margin-right: 5px !important;
+}
+
+
+.pg_menu_login_logout.pm_menu_show_profile_image > a {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+/*---Theme Fixes---
+
+.pg_menu_login_logout.pm_menu_show_profile_image > a {
+    margin-top: -12px;
+    position: relative;
+    padding-left: 33px;
+}
+
+
+.pg_menu_login_logout img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 0px !important;
+    margin-right: 5px !important;
+    position: absolute;
+    left: 0px;
+    top: -6px;
+}
+
+Theme Fixes end---*/
+
+
+
+.pg_menu_login_logout > a + .pg-menu-profile-img {
+    display: none;
+}
+
+/*--Theme Fixes----*/
+
+.theme-ashe .pg_menu_login_logout img {
+    width: 20px;
+    height: 20px;
+}
+
+.theme-Divi .pg_menu_login_logout.pm_menu_show_profile_image > a {
+    display: inline-block !important;
+}
+
+
