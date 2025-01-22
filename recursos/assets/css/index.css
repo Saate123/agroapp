@@ -156,9 +156,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 5%;
 }
 .team .container .box {
-  width: 20%;
+  width: 18%;
   margin-left: 20px;
   margin-top: 20px;
 }
@@ -214,8 +215,11 @@
   .culture .right {
     width: 100%;
   }
+  .team .container {
+    margin-left: 0;
+  }
   .team .container .box {
-    width: 100%;
+    width: 50%;
     margin-left: 0;
     margin-top: 20px;
   }
