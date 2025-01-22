@@ -1,0 +1,263 @@
+.mission {
+  width: 100%;
+  height: auto;
+  background-color: #f8f6bc;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mission .left {
+  width: 50%;
+}
+.mission .left img {
+  width: 65%;
+  border-radius: 10%;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+.mission .right {
+  width: 50%;
+  margin-top: 40px;
+}
+.mission .right h1 {
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: -20px;
+  right: -60px;
+}
+.mission .right .text {
+  width: 80%;
+  position: relative;
+  top: -20px;
+  left: 30px;
+}
+.mission .right .text p {
+  font-size: 15px;
+  color: black;
+  line-height: 35px;
+}
+.vision {
+  width: 100%;
+  height: auto;
+  background-color: gainsboro;
+  display: flex;
+  flex-wrap: wrap;
+}
+.vision h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.vision .left {
+  width: 50%;
+}
+.vision .left .parent {
+  width: 100%;
+  margin-left: 40px;
+  color: #111;
+}
+.vision .left .parent .child {
+  width: 90%;
+  background-color: #012901;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.vision .left .parent .child h5 {
+  color: white;
+}
+.vision .left .parent .child p {
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+}
+.vision .right {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.vision .right img {
+  width: 70%;
+  height: 410px;
+  margin-right: 20%;
+}
+.culture {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffdb2b;
+}
+.culture .write {
+  width: 100%;
+  text-align: center;
+}
+.culture .write h3 {
+  padding-top: 30px;
+  color: #012901;
+  margin-bottom: 30px;
+}
+.culture .left {
+  width: 50%;
+}
+.culture .left img {
+  width: 70%;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.culture .right {
+  width: 50%;
+}
+.culture .right ul {
+  padding: 10px;
+}
+.culture .right ul li {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: white;
+  list-style: none;
+}
+.culture .right ul li .fa-check {
+  margin-right: 10px;
+}
+.download {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.download .elementor-widget-container {
+  width: 50%;
+}
+.download .elementor-widget-container img {
+  margin-left: 50%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+}
+.team .trim {
+  width: 100%;
+  text-align: center;
+}
+.team .trim h1 {
+  font-size: 34px;
+  color: #012901;
+}
+.team .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team .container .box {
+  width: 20%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.team .container .box img {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.team .container .box h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.team .container .box h6 {
+  color: #012901;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.team .container .box p {
+  text-align: left;
+  color: black;
+  line-height: 30px;
+}
+
+/* Mobile layout */
+@media only screen and (max-width: 479px) {
+  .mission .left {
+    width: 100%;
+  }
+  .mission .right {
+    width: 100%;
+  }
+  .mission .right h1 {
+    font-size: 25px;
+  }
+  .vision .left {
+    width: 100%;
+  }
+  .vision .right {
+    width: 100%;
+  }
+  .vision .right img {
+    width: 100%;
+    padding-left: 10px;
+    height: auto;
+  }
+  .culture .left {
+    width: 100%;
+  }
+  .culture .right {
+    width: 100%;
+  }
+  .team .container .box {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .download .elementor-widget-container {
+    width: 100%;
+  }
+  .download .elementor-widget-container img {
+    margin-left: 0;
+  }
+}
+
+/* Tablet layout */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .mission .left {
+    width: 100%;
+  }
+  .mission .right {
+    width: 100%;
+  }
+  .mission .right h1 {
+    font-size: 30px;
+  }
+  .vision .left {
+    width: 100%;
+  }
+  .vision .right {
+    width: 100%;
+  }
+  .vision .right img {
+    width: 100%;
+    height: auto;
+  }
+  .culture .left {
+    width: 100%;
+  }
+  .culture .right {
+    width: 100%;
+  }
+  .team .container .box {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .download .elementor-widget-container {
+    width: 50%;
+  }
+  .download .elementor-widget-container img {
+    margin-left: 25%;
+  }
+}
